@@ -31,7 +31,7 @@ app.use(express.json({ limit: '10mb' }));
 // CORS (restrict in production)
 const allowedOrigins = [
   'http://localhost:5173',     // Dev
-  'https://your-frontend.com'  // Prod – replace this
+  'https://sportify2025.netlify.app/'  // Prod – replace this
 ];
 
 app.use(cors({
